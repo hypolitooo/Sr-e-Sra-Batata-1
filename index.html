@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sr e Sra Batata</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3b66b"/><stop offset="1" stop-color="#a8702f"/></linearGradient>
+<g id="pt"><path d="M10 42C8 18 32 5 56 7c26 2 40 17 33 38-6 19-28 31-50 28C22 71 11 60 10 42z" fill="url(#pg)" stroke="#6b3f17" stroke-width="3"/><ellipse cx="34" cy="28" rx="3.5" ry="2.2" fill="#6b3f17" opacity=".7"/><ellipse cx="60" cy="22" rx="3" ry="2" fill="#6b3f17" opacity=".7"/><ellipse cx="68" cy="46" rx="3.5" ry="2.2" fill="#6b3f17" opacity=".7"/><ellipse cx="42" cy="52" rx="3" ry="2" fill="#6b3f17" opacity=".7"/><path d="M24 20C30 13 40 11 48 12" stroke="#f3d79c" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7"/></g>
+<g id="lf"><path d="M5 50C5 20 30 3 62 5c-2 32-22 52-57 45z" fill="#6b7035" stroke="#454a1f" stroke-width="2"/><path d="M8 47C28 32 42 20 58 9" stroke="#454a1f" stroke-width="2" fill="none"/></g>
+</defs></svg>
+<header>
+  <div class="logo"><img src="img/logo-topo.png" alt="Sr e Sra Batata - Sabor que apaixona"></div>
+  <nav id="nav">
+    <a href="#batatas-recheadas">Batatas Recheadas</a>
+    <a href="#marmitas">Marmitas</a>
+    <a href="#pratos-do-dia">Pratos do Dia</a>
+    <a href="#porcoes">Porções</a>
+    <a href="#bebidas">Bebidas</a>
+  </nav>
+  <div class="actions">
+    <button class="icon-btn" id="openCart" aria-label="Abrir carrinho">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.7 11.4a2 2 0 0 0 2 1.6h7.6a2 2 0 0 0 2-1.5L21 7H6"/></svg>
+      <span class="badge" id="count">0</span>
+    </button>
+    <button class="icon-btn" id="menuBtn" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+
+<section class="hero">
+  <svg class="deco" viewBox="0 0 100 80" style="left:-3%;bottom:-6%;width:clamp(110px,15vw,210px);transform:rotate(18deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="right:2%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(-20deg)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="left:6%;top:3%;width:clamp(40px,5vw,64px);transform:rotate(35deg);filter:blur(1px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="right:7%;bottom:6%;width:clamp(50px,7vw,90px);transform:rotate(30deg)"><use href="#lf"/></svg>
+  <div class="slide on big" data-id="batata-queijo-bacon" data-name="Batata Recheada Queijo e Bacon" data-price="0">
+    <div>
+      <span class="eyebrow">Feita com carinho de família</span>
+      <h1>Batata recheada <em>queijo e bacon</em></h1>
+      <p class="lead">Batata macia, recheio generoso e o sabor de comida caseira que abraça. Do jeito que a gente faz em casa.</p>
+      <div class="buy"><button class="btn add">Comprar</button><span class="price">Preço a definir</span></div>
+    </div>
+    <div class="cut"><img src="img/batata-hero.webp" alt="Batata recheada com queijo e bacon"></div>
+  </div>
+
+</section>
+
+<section id="batatas-recheadas">
+  <svg class="deco" viewBox="0 0 100 80" style="right:-3%;top:22%;width:clamp(110px,14vw,200px);transform:rotate(-28deg);filter:blur(3px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="left:-3%;bottom:6%;width:clamp(100px,13vw,180px);transform:rotate(24deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="left:4%;top:3%;width:clamp(40px,5vw,64px);transform:rotate(-30deg)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="right:5%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(-15deg)"><use href="#lf"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Batatas Recheadas</h2>
+    <div class="list">
+      <div class="card" data-id="batata-1" data-name="Batata Recheada 1 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="batata-2" data-name="Batata Recheada 2 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="batata-3" data-name="Batata Recheada 3 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="batata-4" data-name="Batata Recheada 4 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="batata-5" data-name="Batata Recheada 5 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="marmitas">
+  <svg class="deco" viewBox="0 0 100 80" style="right:-3%;top:30%;width:clamp(100px,13vw,180px);transform:rotate(-22deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="left:5%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(20deg)"><use href="#lf"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Marmitas</h2>
+    <div class="list">
+      <div class="card" data-id="marmita-1" data-name="Marmita 1 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="marmita-2" data-name="Marmita 2 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="marmita-3" data-name="Marmita 3 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="marmita-4" data-name="Marmita 4 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="marmita-5" data-name="Marmita 5 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="pratos-do-dia">
+  <svg class="deco" viewBox="0 0 100 80" style="left:-3%;top:35%;width:clamp(100px,13vw,180px);transform:rotate(25deg);filter:blur(3px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="right:4%;top:3%;width:clamp(40px,5vw,64px);transform:rotate(-25deg)"><use href="#pt"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Pratos do Dia</h2>
+    <div class="list">
+      <div class="card" data-id="prato-1" data-name="Prato do Dia 1 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="prato-2" data-name="Prato do Dia 2 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="prato-3" data-name="Prato do Dia 3 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="prato-4" data-name="Prato do Dia 4 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="prato-5" data-name="Prato do Dia 5 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="porcoes">
+  <svg class="deco" viewBox="0 0 100 80" style="right:-3%;bottom:5%;width:clamp(100px,13vw,180px);transform:rotate(30deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="left:6%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(-18deg)"><use href="#lf"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Porções</h2>
+    <div class="list">
+      <div class="card" data-id="porcao-1" data-name="Porção 1 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="porcao-2" data-name="Porção 2 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="porcao-3" data-name="Porção 3 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="porcao-4" data-name="Porção 4 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="porcao-5" data-name="Porção 5 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="bebidas">
+  <svg class="deco" viewBox="0 0 100 80" style="left:-3%;bottom:8%;width:clamp(100px,13vw,180px);transform:rotate(18deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 100 80" style="right:6%;top:3%;width:clamp(40px,5vw,64px);transform:rotate(-28deg)"><use href="#pt"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Bebidas</h2>
+    <div class="list">
+      <div class="card" data-id="bebida-1" data-name="Bebida 1 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="bebida-2" data-name="Bebida 2 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="bebida-3" data-name="Bebida 3 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="bebida-4" data-name="Bebida 4 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+      <div class="card" data-id="bebida-5" data-name="Bebida 5 (a definir)" data-price="0"><div class="ph">Imagem</div><div class="info"><h3>A definir</h3><div class="meta"><span>Serve: <b>a definir</b></span><span>Preço: <b>a definir</b></span></div></div><button class="btn add">Adicionar ao carrinho</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="sobre">
+  <svg class="deco" viewBox="0 0 100 80" style="left:-3%;top:25%;width:clamp(100px,13vw,180px);transform:rotate(22deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="right:5%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(-20deg)"><use href="#lf"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Conheça Nossa Casa</h2>
+    <div class="about">
+      <div class="gal"><div class="ph">Foto da empresa</div><div class="ph">Foto da empresa</div><div class="ph">Foto da empresa</div><div class="ph">Foto da empresa</div><div class="ph">Foto da empresa</div><div class="ph">Foto da empresa</div></div>
+      <div class="about-info">
+        <div><h3>Endereço</h3><a href="https://www.google.com/search?sca_esv=4f6fdae4a0ab02ae&amp;rlz=1C1GCEA_enBR1184BR1184&amp;sxsrf=APpeQnudP_4k68yMeNYDv8YgZlmpqOx2Xw:1792191286262&amp;q=sr+e+sra+batata+restaurante+guarulhos+endere%C3%A7o&amp;ludocid=4306517678756448220&amp;sa=X&amp;ved=2ahUKEwivtvLn0L-XAxWtIrkGHdPEAAoQ6BN6BAg1EAI&amp;cshid=1792191294389205" target="_blank" rel="noopener">R. Sílvio Barbosa, 353 - Macedo, Guarulhos - SP, 07111-010</a></div>
+        <div><h3>Horário de funcionamento</h3><div class="hours"><span>sexta-feira</span><span>09:00–22:00</span><span>sábado</span><span>09:00–22:00</span><span>domingo</span><span>09:00–14:00</span><span>segunda-feira</span><span>09:00–18:00</span><span>terça-feira</span><span>09:00–18:00</span><span>quarta-feira</span><span>09:00–22:00</span><span>quinta-feira</span><span>09:00–22:00</span></div></div>
+        <div><h3>Instagram</h3><a href="https://www.instagram.com/sr_e_sra_batatarestaurante/" target="_blank" rel="noopener">@sr_e_sra_batatarestaurante</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="feedbacks">
+  <svg class="deco" viewBox="0 0 100 80" style="right:-3%;top:20%;width:clamp(100px,13vw,180px);transform:rotate(-24deg);filter:blur(4px)"><use href="#pt"/></svg>
+  <svg class="deco" viewBox="0 0 70 55" style="left:5%;top:2%;width:clamp(50px,7vw,90px);transform:rotate(18deg)"><use href="#lf"/></svg>
+  <div class="sec-in">
+    <h2 class="sec-title">Feedbacks</h2>
+    <div class="fb">
+      <form class="fb-form" id="fbForm">
+        <input id="fbName" type="text" placeholder="Seu nome" maxlength="40">
+        <div class="stars" id="stars" aria-label="Nota"><button type="button" aria-label="1 estrela">★</button><button type="button" aria-label="2 estrelas">★</button><button type="button" aria-label="3 estrelas">★</button><button type="button" aria-label="4 estrelas">★</button><button type="button" aria-label="5 estrelas">★</button></div>
+        <textarea id="fbMsg" placeholder="Conte como foi sua experiência" maxlength="400"></textarea>
+        <div class="fb-err" id="fbErr"></div>
+        <button class="btn" type="submit">Enviar feedback</button>
+      </form>
+      <div class="fb-list" id="fbList"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ft">
+    <div class="ft-info">
+      <div><h3>Endereço</h3><a href="https://www.google.com/search?sca_esv=4f6fdae4a0ab02ae&amp;rlz=1C1GCEA_enBR1184BR1184&amp;sxsrf=APpeQnudP_4k68yMeNYDv8YgZlmpqOx2Xw:1792191286262&amp;q=sr+e+sra+batata+restaurante+guarulhos+endere%C3%A7o&amp;ludocid=4306517678756448220&amp;sa=X&amp;ved=2ahUKEwivtvLn0L-XAxWtIrkGHdPEAAoQ6BN6BAg1EAI&amp;cshid=1792191294389205" target="_blank" rel="noopener">R. Sílvio Barbosa, 353 - Macedo, Guarulhos - SP, 07111-010</a></div>
+      <div><h3>Horário de funcionamento</h3><div class="hours"><span>sexta-feira</span><span>09:00–22:00</span><span>sábado</span><span>09:00–22:00</span><span>domingo</span><span>09:00–14:00</span><span>segunda-feira</span><span>09:00–18:00</span><span>terça-feira</span><span>09:00–18:00</span><span>quarta-feira</span><span>09:00–22:00</span><span>quinta-feira</span><span>09:00–22:00</span></div></div>
+      <div><h3>Instagram</h3><a href="https://www.instagram.com/sr_e_sra_batatarestaurante/" target="_blank" rel="noopener">@sr_e_sra_batatarestaurante</a></div>
+    </div>
+    <img class="ft-logo" src="img/logo-rodape.webp" alt="Sr e Sra Batata - Sabor que apaixona">
+  </div>
+</footer>
+
+<div class="overlay" id="ov"></div>
+<aside id="cart" aria-label="Carrinho">
+  <h2>Seu carrinho <button id="closeCart" aria-label="Fechar">×</button></h2>
+  <div id="items"></div>
+  <div class="foot"><div class="total"><span>Total</span><span id="total">R$ 0,00</span></div><button class="btn" id="checkout">Finalizar pedido</button></div>
+</aside>
+
+<script src="js/script.js"></script>
+</body>
+</html>
